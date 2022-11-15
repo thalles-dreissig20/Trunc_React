@@ -1,0 +1,81 @@
+.Container{
+    background-color: #3a3a55;
+    height: 550px;
+    width: 515px;
+    position: relative;
+    margin: auto;
+    top: 40px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.cadastro{
+  position: absolute;
+  top: 16px;
+  left: 38%;
+  color: white;
+  text-align: center;
+}
+button{
+  background-color: #B8BCBF;
+  color: black;
+  margin-top: 10px;
+  font-size: 20px;
+  width: 515px;
+  height: 40px;
+}
+input{
+  font-size: 20px;
+}
+.Form{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.form-field{
+  width: 500px;
+  display: inline-block;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+
+
+.Form-error-senha-cadastro{
+  position: absolute;
+  z-index: 1;
+  top: 153px;
+  left: 50%;
+  color: red;
+  opacity: 0.8;
+}
+.Form-error-senha-confirm-cadastro{
+  position: absolute;
+  z-index: 1;
+  top: 218px;
+  left: 50%;
+  color: red;
+  opacity: 0.8;
+}
+.Form-error-email-cadastro{
+  position: absolute;
+  z-index: 1;
+  top: 90px;
+  left: 50%;
+  color: red;
+  opacity: 0.8;
+}
+.Form-error-nome{
+  position: absolute;
+  z-index: 1;
+  opacity: 0.8;
+  top: 23px;
+  left: 50%;
+  color: red;
+}
+
+
+
+
+.icon-login{
+  font-size: 80px;
+  margin-left: 10%;
+}
