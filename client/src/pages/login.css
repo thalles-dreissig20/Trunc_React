@@ -3,7 +3,7 @@
   list-style: none;
 }
 .Container{
-    background-color: #122A40;
+    background-color: #170303;
     height: 200px;
     width: 515px;
     position: relative;
@@ -17,7 +17,7 @@
   text-align: center;
 }
 button{
-  background-color: #B8BCfF;
+  background-color: #0009bd;
   color: black;
   margin-top: 10px;
   font-size: 20px;

@@ -45,7 +45,9 @@ function Login() {
                 className="Form-error-senha"/>
             </div>
 
-            <button className="button" type="submit">Login</button>
+            <button>
+               <Link className="Link" to="/Home">Login</Link>
+            </button>
 
             
             <button>
