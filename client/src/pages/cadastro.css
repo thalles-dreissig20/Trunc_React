@@ -1,27 +1,9 @@
-.Container{
-    background-color: #020e26;
-    height: 550px;
-    width: 515px;
-    position: relative;
-    margin: auto;
-    top: 40px;
-    padding: 20px;
-    border-radius: 5px;
-}
 .cadastro{
   position: absolute;
   top: 16px;
   left: 38%;
   color: white;
   text-align: center;
-}
-button{
-  background-color: #B8BCBF;
-  color: black;
-  margin-top: 10px;
-  font-size: 20px;
-  width: 515px;
-  height: 40px;
 }
 input{
   font-size: 20px;
@@ -69,10 +51,8 @@ input{
   color: red;
 }
 
-
-
-
 .icon-login{
   font-size: 80px;
   margin-left: 10%;
+  color: #963325;
 }

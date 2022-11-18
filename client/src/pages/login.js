@@ -49,7 +49,7 @@ function Login() {
 
             <button className="button" type="submit" to="/Home">Login</button>
             
-            <button>
+            <button className='button'>
                <Link className="Link" to="/Register">Cadastrar</Link>
             </button>
             <div className="footer">

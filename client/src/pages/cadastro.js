@@ -70,7 +70,7 @@ const Cadastro = () => {
                 <button className="button" type="submit">Cadastrar</button>
                 
                 
-                <button>
+                <button className='button'>
                      <Link className="Link" to="/Login">Voltar</Link>
                 </button>
                 </Form>
