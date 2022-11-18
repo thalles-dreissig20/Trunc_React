@@ -7,7 +7,7 @@ import './login.css';
 import gif from '../gif.gif';
 
 function Login() {
-  
+
   const handleClickLogin = (values) => {
       Axios.post("http://localhost:3001/Login", {
       email: values.email,
@@ -30,25 +30,24 @@ function Login() {
           <Form className="Form">
 
             <div className="form-login-group">  
-              <Field name="email" className="form-field" placeholder="Email" />
+              <Field name="email" className="form-field" />
               <ErrorMessage
               component="span"
               name="email"
               className="Form-error-email"/>
+              <label>Email</label>
             </div>
 
             <div className="form-login-group">
-                <Field name="password" autocomplete="off" className="form-field" placeholder="Senha" />
+                <Field name="password" autocomplete="off" className="form-field" />
                 <ErrorMessage 
                 component="span"
                 name="password"
                 className="Form-error-senha"/>
+                <label>Senha</label>
             </div>
 
-            <button>
-               <Link className="Link" to="/Home">Login</Link>
-            </button>
-
+            <button className="button" type="submit" to="/Home">Login</button>
             
             <button>
                <Link className="Link" to="/Register">Cadastrar</Link>
