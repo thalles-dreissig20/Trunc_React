@@ -36,30 +36,27 @@ input{
   padding: 5px;
   margin-top: 20px;
 }
-
-
-
 .Form-error-senha-cadastro{
   position: absolute;
   z-index: 1;
-  top: 153px;
-  left: 50%;
+  top: 35px;
+  left: 60%;
   color: red;
   opacity: 0.8;
 }
 .Form-error-senha-confirm-cadastro{
   position: absolute;
   z-index: 1;
-  top: 218px;
-  left: 50%;
+  top: 35px;
+  left: 60%;
   color: red;
   opacity: 0.8;
 }
 .Form-error-email-cadastro{
   position: absolute;
   z-index: 1;
-  top: 90px;
-  left: 50%;
+  top: 35px;
+  left: 60%;
   color: red;
   opacity: 0.8;
 }
@@ -67,8 +64,8 @@ input{
   position: absolute;
   z-index: 1;
   opacity: 0.8;
-  top: 23px;
-  left: 50%;
+  top: 35px;
+  left: 60%;
   color: red;
 }
 

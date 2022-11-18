@@ -33,35 +33,39 @@ const Cadastro = () => {
                 <Form className="Form">
 
                 <div className="form-login-group">
-                <Field name="name" className="form-field" placeholder="Nome Completo" />
+                <Field name="name" className="form-field" />
                 <ErrorMessage
                     component="span"
                     name="name"
                     className="Form-error-nome" />
+                    <label>Nome completo</label>
                 </div>
                     
                 <div className="form-login-group">
-                <Field name="email" className="form-field" placeholder="Email" />
+                <Field name="email" className="form-field" />
                 <ErrorMessage 
                     component="span"
                     name="email"
                     className="Form-error-email-cadastro" />
+                    <label>Email</label>
                 </div>
 
                 <div className="form-login-group">
-                <Field name="password" autocomplete="off" className="form-field" placeholder="Senha" />
+                <Field name="password" autocomplete="off" className="form-field" />
                 <ErrorMessage 
                     component="span"
                     name="password"
                     className="Form-error-senha-cadastro"/>
+                    <label>Senha</label>
                 </div>
 
                 <div className="form-login-group">
-                <Field name="confirmPassword" autocomplete="off" className="form-field" placeholder="Confirme sua senha" />
+                <Field name="confirmPassword" autocomplete="off" className="form-field" />
                 <ErrorMessage 
                     component="span"
                     name="confirmPassword"
                     className="Form-error-senha-confirm-cadastro"/>
+                    <label>Confirme sua senha</label>
                 </div>
                 <button className="button" type="submit">Cadastrar</button>
                 
